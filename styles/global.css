@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;500;700&display=swap');
+
+@keyframes pulse {
+    0% {
+        background-color: #ffffff;
+    }
+    50% {
+        background-color: #f3f3f3;
+    }
+    100% {
+        background-color: #ffffff;
+    }
+}
+
+@keyframes flip-horizontal-top {
+    0% {
+        transform: rotateX(0);
+    }
+    50% {
+        transform: rotateX(180deg);
+    }
+    100% {
+        transform: rotateX(0);
+    }
+  }
+
+@keyframes slide {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(15px);
+    }
+    50% {
+        transform: translateY(0);
+      }
+    75% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-color: #e7e7e7;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #222222;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 18pt;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: ease 300ms;
+}
+
+span {
+    font-size: 14pt;
+    color: #7e7e7e;
+    font-weight: 300;
+}

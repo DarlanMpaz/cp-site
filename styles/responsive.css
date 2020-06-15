@@ -1,0 +1,109 @@
+@media (max-width: 900px) {
+    #home {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 414px) {
+    body {
+        overflow: visible;
+    }
+
+    #home header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #home header img {
+        width: 300px;
+        margin: 5px auto 25px auto;
+    }
+
+    #home header h1 {
+        font-size: 16pt;
+        margin: 0 20px;
+        margin-bottom: 90px;
+        line-height: 20px;
+    }
+
+    #home main {
+        height: 33vh;
+    }
+
+    #home main .mainframe {
+        flex-direction: column;
+    }
+
+    #home main .mainframe .social {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background: none;
+        margin: 0 auto;
+        padding: 10px 15px 10px 15px;
+        flex-direction: row;
+    }
+    
+    #home main .mainframe iframe{
+        border-radius: 0;
+    }
+
+    #home main .mainframe .social a {
+        background: white;
+    }
+
+    #home main .mainframe .social a:hover {
+        background: #bbbbbbe7;
+        width: 60px;
+        margin-right: 0;
+        text-align: center;
+
+        animation-iteration-count: infinite;
+        animation: slide 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    #home main .mainframe .social a:hover span{
+        visibility: hidden;
+    }
+
+    #home main .link {
+        position: absolute;
+        margin: 35px auto;
+        top: 155px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #home header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #home header img {
+        width: 300px;
+        margin: 5px auto 25px auto;
+    }
+
+    #home header h1 {
+        font-size: 24pt;
+        margin: 0 20px;
+        margin-bottom: 90px;
+        line-height: 20px;
+    }
+    
+    #home main .mainframe .social {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background: white;
+        margin: 0 auto;
+        padding: 20px 25px 10px 25px;
+        flex-direction: row;
+    }
+
+    #home main .mainframe iframe {
+        border-radius: 0;
+    }
+}
